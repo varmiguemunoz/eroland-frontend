@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: black;
+  background: white;
+}
+
+#banner-image {
+  mask-image: linear-gradient(black 80%, transparent)
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
